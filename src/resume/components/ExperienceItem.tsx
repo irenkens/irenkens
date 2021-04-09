@@ -1,5 +1,5 @@
 import React from "react";
-import calendar from "../icons/calendar.png";
+import { ReactComponent as Calendar } from "../icons/calendar.svg";
 
 interface ExperienceItemProps {
   title: string;
@@ -19,7 +19,7 @@ const ExperienceItem = ({ title, date, children }: ExperienceItemProps) => (
         margin: "2px 0 7px 0",
       }}
     >
-      <img src={calendar} alt="img" style={{ height: 15, width: "auto" }} />
+      <Calendar width="17px" height="17px" style={{ marginRight: 10, marginTop: -1 }} />
       <span style={{ marginTop: 3, lineHeight: "12px" }}>{date}</span>
     </span>
     <span style={{ fontSize: 14, textAlign: "justify" }}>{children}</span>

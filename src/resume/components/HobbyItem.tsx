@@ -1,14 +1,14 @@
 import React from "react";
 
 interface HobbyItemProps {
-  icon: string;
   name: string;
+  children: React.ReactElement
 }
 
-const HobbyItem = ({ icon, name }: HobbyItemProps) => (
+const HobbyItem = ({ children, name }: HobbyItemProps) => (
   <div className="hobby">
-    <img src={icon} alt="img" />
-    <span>{name}</span>
+    {children}
+    <span style={{ marginLeft: 10 }}>{name}</span>
   </div>
 );
 

@@ -9,21 +9,21 @@ import {
 } from "./components";
 import "./resume.scss";
 
-import email from "./icons/email.png";
-import phone from "./icons/phone.png";
-import linkedin from "./icons/linkedin.png";
-
-import globe from "./icons/globe.png";
-import piano from "./icons/piano.png";
-import music from "./icons/music.png";
-import camera from "./icons/camera5.png";
-
 // source: https://simpleicons.org/
 import { ReactComponent as NodeJS } from "./icons/node-dot-js.svg";
 import { ReactComponent as Git } from "./icons/git.svg";
 import { ReactComponent as ReactIcon } from "./icons/react.svg";
 import { ReactComponent as Go } from "./icons/go.svg";
 import { ReactComponent as Kubernetes } from "./icons/kubernetes.svg";
+
+// source: https://www.flaticon.com/
+import  { ReactComponent as Email } from "./icons/email.svg";
+import  { ReactComponent as Phone } from "./icons/telephone.svg";
+import  { ReactComponent as LinkedIn } from "./icons/linkedin.svg";
+import  { ReactComponent as Globe } from "./icons/globe.svg";
+import  { ReactComponent as Piano } from "./icons/piano.svg";
+import  { ReactComponent as Music } from "./icons/music.svg";
+import  { ReactComponent as Camera } from "./icons/camera.svg";
 
 const Resume = () => (
   <div className="resume-page">
@@ -52,9 +52,9 @@ const Resume = () => (
         <div className="bottom" style={{ display: "flex" }}>
           <div className="left-side">
             <BlockItem title="Contact">
-              <InfoItem icon={email} info="private@example.com" />
-              <InfoItem icon={phone} info="+31(0)612345678" />
-              <InfoItem icon={linkedin} info="in/irenerenkens" />
+              <InfoItem info="private@example.com"><Email width="18px" style={{ marginLeft: 1, marginRight: 1 }} /></InfoItem>
+              <InfoItem info="+31(0)612345678"><Phone width="19px" style={{ marginLeft: 1 }} /></InfoItem>
+              <InfoItem info="in/irenerenkens"><LinkedIn width="16px" style={{ marginLeft: 3, marginRight: 1 }} /></InfoItem>
               {/* <InfoItem icon={location} info='Den Haag' /> */}
             </BlockItem>
 
@@ -121,15 +121,15 @@ const Resume = () => (
                     flex: 0.85,
                   }}
                 >
-                  <HobbyItem icon={globe} name="Travel" />
-                  <HobbyItem icon={piano} name="Piano" />
+                  <HobbyItem name="Travel"><Globe width="20px" /></HobbyItem>
+                  <HobbyItem name="Piano"><Piano width="20px" /></HobbyItem>
                 </div>
                 <div
                   className="col-2"
                   style={{ display: "flex", flexDirection: "column" }}
                 >
-                  <HobbyItem icon={camera} name="Photography" />
-                  <HobbyItem icon={music} name="Festivals" />
+                  <HobbyItem name="Photography"><Camera width="22px" style={{ marginLeft: -1, marginRight: -1 }}/></HobbyItem>
+                  <HobbyItem name="Festivals"><Music width="20px" /></HobbyItem>
                 </div>
               </div>
             </BlockItem>
