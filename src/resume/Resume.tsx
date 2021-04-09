@@ -9,12 +9,6 @@ import {
 } from "./components";
 import "./resume.scss";
 
-import react from "./icons/react.png";
-import node from "./icons/node.png";
-import go from "./icons/go.png";
-import kubernetes from "./icons/kubernetes.png";
-import git from "./icons/git.png";
-
 import email from "./icons/email.png";
 import phone from "./icons/phone.png";
 import linkedin from "./icons/linkedin.png";
@@ -23,6 +17,13 @@ import globe from "./icons/globe.png";
 import piano from "./icons/piano.png";
 import music from "./icons/music.png";
 import camera from "./icons/camera5.png";
+
+// source: https://simpleicons.org/
+import { ReactComponent as NodeJS } from "./icons/node-dot-js.svg";
+import { ReactComponent as Git } from "./icons/git.svg";
+import { ReactComponent as ReactIcon } from "./icons/react.svg";
+import { ReactComponent as Go } from "./icons/go.svg";
+import { ReactComponent as Kubernetes } from "./icons/kubernetes.svg";
 
 const Resume = () => (
   <div className="resume-page">
@@ -83,16 +84,16 @@ const Resume = () => (
                     flex: 0.85,
                   }}
                 >
-                  <TechItem icon={react} name="React" />
-                  <TechItem icon={go} name="GoLang" />
-                  <TechItem icon={kubernetes} name="Kubernetes" />
+                  <TechItem name="React"><ReactIcon fill="#61DAFB" width="25px" /></TechItem>
+                  <TechItem name="GoLang"><Go fill="#00A29C" width="25px" /></TechItem>
+                  <TechItem name="Kubernetes"><Kubernetes fill="#326CE5" width="25px" /></TechItem>
                 </div>
                 <div
                   className="col-2"
                   style={{ display: "flex", flexDirection: "column" }}
                 >
-                  <TechItem icon={node} name="NodeJS" />
-                  <TechItem icon={git} name="Git" />
+                  <TechItem name="NodeJS"><NodeJS fill="#339933" width="25px" /></TechItem>
+                  <TechItem name="Git"><Git fill="#F05032" width="25px" /></TechItem>
                 </div>
               </div>
             </BlockItem>

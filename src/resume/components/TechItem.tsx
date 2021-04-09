@@ -1,14 +1,14 @@
 import React from "react";
 
 interface TechItemProps {
-  icon: string;
   name: string;
+  children: React.ReactNode
 }
 
-const TechItem = ({ icon, name }: TechItemProps) => (
+const TechItem = ({ name, children }: TechItemProps) => (
   <div className="tech">
-    <img src={icon} alt="img" />
-    <span>{name}</span>
+    {children}
+    <span style={{ marginLeft: 10 }}>{name}</span>
   </div>
 );
 
