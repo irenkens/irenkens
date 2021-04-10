@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6876002.chunk.css",
-    "main.js": "/static/js/main.a4f4f6ea.chunk.js",
-    "main.js.map": "/static/js/main.a4f4f6ea.chunk.js.map",
+    "main.css": "/static/css/main.4c03b207.chunk.css",
+    "main.js": "/static/js/main.ba4bfca9.chunk.js",
+    "main.js.map": "/static/js/main.ba4bfca9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6f921e98.js",
     "runtime-main.js.map": "/static/js/runtime-main.6f921e98.js.map",
     "static/js/2.918673c7.chunk.js": "/static/js/2.918673c7.chunk.js",
     "static/js/2.918673c7.chunk.js.map": "/static/js/2.918673c7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a6876002.chunk.css.map": "/static/css/main.a6876002.chunk.css.map",
+    "static/css/main.4c03b207.chunk.css.map": "/static/css/main.4c03b207.chunk.css.map",
     "static/js/2.918673c7.chunk.js.LICENSE.txt": "/static/js/2.918673c7.chunk.js.LICENSE.txt",
     "static/media/calendar.892f7ace.svg": "/static/media/calendar.892f7ace.svg",
     "static/media/camera.4fef4ad6.svg": "/static/media/camera.4fef4ad6.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.6f921e98.js",
     "static/js/2.918673c7.chunk.js",
-    "static/css/main.a6876002.chunk.css",
-    "static/js/main.a4f4f6ea.chunk.js"
+    "static/css/main.4c03b207.chunk.css",
+    "static/js/main.ba4bfca9.chunk.js"
   ]
 }
