@@ -196,15 +196,6 @@ const Resume = () => (
                 Together with a small team, I implemented a ServiceNow solution
                 for Fujitsu France to support their internal processes.
               </ExperienceItem>
-
-              <ExperienceItem
-                title="Intern, M3 Interactive(s) Pte. Ltd. Singapore"
-                date="Apr 2011 - Jul 2011"
-              >
-                Developed mini games based on speech recognition in C#/WPF. The
-                goal of the games was to improve the player&apos;s English
-                pronounciation.
-              </ExperienceItem>
             </BlockItem>
           </div>
         </div>
