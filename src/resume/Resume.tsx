@@ -54,7 +54,7 @@ const Resume = () => (
             <BlockItem title="Contact">
               <InfoItem info="private@example.com"><Email width="18px" style={{ marginLeft: 1, marginRight: 1 }} /></InfoItem>
               <InfoItem info="+31(0)612345678"><Phone width="19px" style={{ marginLeft: 1, marginTop: -3 }} /></InfoItem>
-              <InfoItem info="in/irenerenkens"><LinkedIn width="16px" style={{ marginLeft: 3, marginRight: 1, marginTop: -4 }} /></InfoItem>             
+              <InfoItem info="in/irenerenkens" link="https://www.linkedin.com/in/irenerenkens"><LinkedIn width="16px" style={{ marginLeft: 3, marginRight: 1, marginTop: -4 }} /></InfoItem>             
             </BlockItem>
 
             <BlockItem title="Education">
