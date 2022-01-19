@@ -40,12 +40,10 @@ const Resume = () => (
               textAlign: "justify",
             }}
           >
-            Fullstack software engineer. Happiest in a dynamic environment where
-            I can continue to learn new things. Working the full stack excites
-            me as it gives me the opportunity to work with a combination of
-            different techniques and tackle a wide variety of challenges. Im a
-            quick study, eager to learn, a good team player, and always up for a
-            challenge.
+            Fullstack software engineer. Happiest in a dynamic environment where I can continue to learn
+            new things. Working the full stack excites me as it gives me the opportunity to work with a
+            combination of different techniques and tackle a wide variety of challenges. I&apos;m a
+            quick study who is eager to learn, a good team player, and always up for a challenge.
           </div>
         </div>
 
@@ -97,7 +95,7 @@ const Resume = () => (
 
             <BlockItem title="Other skills">
               <span style={{ textAlign: "justify" }}>
-                C#, Microservices, JavaScript, TypeScript, JIRA, ESLint, Sass,
+                C#, JavaScript, TypeScript, Jest, Enzyme, JIRA, ESLint, Sass,
                 VeraCode, GraphQL, Webpack, Express, SonarQube, Electron, Scrum,
                 Confluence, OOP, Unit testing, SVN, UML, WPF, HTML, CSS, Visual
                 Studio (Code).
@@ -144,12 +142,12 @@ const Resume = () => (
                 clients:
                 <SubCompany
                   company="PwC Netherlands"
-                  description="Working as a fullstack software engineer for PwC on Digital Solutions Store (DSS), which
+                  description="Working as a fullstack software engineer for PwC on On Demand, which
                   is a platform for editing, analyzing, and visualizing tax data analysis solutions. My responsibilities
                   include clarifying specifications, development and documentation of new features, doing bug fixes, code
-                  reviews and pull request approvals. I maintain code quality by introducing best practices and making
-                  sure code is sufficiently covered by tests. I also put quality tools such as code linters, formatters, and
-                  pre-commit hooks in place when needed. Working with Go/React/NodeJS/ Kubernetes/microservices."
+                  reviews, and pull request approvals. I improved and maintain code quality by introducing best practices
+                  and making sure code is sufficiently covered by tests. I also put quality tools such as code linters,
+                  formatters, and pre-commit hooks in place. Tech stack used: React, NodeJS, Go, Kubernetes."
                   style={{ marginTop: 10, marginBottom: 0 }}
                 />
               </ExperienceItem>
@@ -164,7 +162,7 @@ const Resume = () => (
                 <SubCompany
                   company="Honeywell"
                   description="Worked as a fullstack software engineer on ENTIS, a tank inventory system. I was responsible
-                  for the entire front-end (React/GraphQL/ NodeJS), including unit testing, linting, static code analysis and
+                  for the entire front-end (React, GraphQL, NodeJS), including unit testing, linting, static code analysis and
                   deployment approaches. In addition I was also responsible for doing code reviews/pull request approvals for
                   the back-end team (C#)."
                   style={{ marginTop: 10 }}
