@@ -40,10 +40,10 @@ const Resume = () => (
               textAlign: "justify",
             }}
           >
-            Fullstack software engineer. Happiest in a dynamic environment where I can continue to learn
-            new things. Working the full stack excites me as it gives me the opportunity to work with a
-            combination of different techniques and tackle a wide variety of challenges. I&apos;m a
-            quick study who is eager to learn, a good team player, and always up for a challenge.
+            Software engineer. Happiest in a dynamic environment where I can continue to learn new things.
+            Preference for working full stack as it allows me the opportunity to work with a combination of different
+            techniques and tackle a wide variety of challenges. I&apos;m a quick study who is eager to learn, a good team
+            player, and always up for a challenge.
           </div>
         </div>
 
@@ -138,11 +138,25 @@ const Resume = () => (
               >
                 Currently working as a consultant for Passionate People, a
                 consultancy focused on leading and developing world-class web
-                applications. At the moment I&apos;m working at one of their
-                clients:
+                applications. Worked at two clients over the past few years:
+                <SubCompany
+                  company="Bol.com"
+                  description="Working in two teams within IT Security.
+                  Focusing on all things front-end related to user login within one team. This includes
+                  implementing brand new login screens which are currently going through the testing phase before
+                  being rolled out to all 13M+ active Bol.com customers. Concurrently working on front-end screens
+                  related to two factor verification which will be rolled out as a new feature to all 13M+ Bol.com
+                  customers in the near future. Next to that also responsible for migrating internal legacy apps
+                  from Vaadin to React/Kotlin and creating new ones to easily facilitate support operations.
+                  
+                  Within the other team I'm working as a fullstack engineer on dashboarding and
+                  visualisations to gain valuable insights related to IT Security & Compliance processes.
+                  Tech used: Next.js, React, Spring Boot, Kotlin, Angular, Postgres"
+                  style={{ marginTop: 10, marginBottom: 0 }}
+                  />
                 <SubCompany
                   company="PwC Netherlands"
-                  description="Working as a fullstack software engineer for PwC on On Demand, which
+                  description="Worked as a fullstack software engineer for PwC on On Demand, which
                   is a platform for editing, analyzing, and visualizing tax data analysis solutions. My responsibilities
                   include clarifying specifications, development and documentation of new features, doing bug fixes, code
                   reviews, and pull request approvals. I improved and maintain code quality by introducing best practices
