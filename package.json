@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -b deploy -d build"
+    "export": "next build && type nul > ./build/.nojekyll",
+    "deploy": "gh-pages -b deploy -d build -t true"
   },
   "dependencies": {
     "@types/node": "20.5.0",
