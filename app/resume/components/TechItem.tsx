@@ -6,7 +6,7 @@ interface TechItemProps {
 }
 
 const TechItem = ({ name, children }: TechItemProps) => (
-  <div className="tech">
+  <div className="flex items-center h-[30px] my-[5px] mx-0">
     {children}
     <span style={{ marginLeft: 10 }}>{name}</span>
   </div>

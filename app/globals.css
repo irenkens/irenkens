@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    size: 210mm 297mm;
+  }
+}
+
+body {
+  font-family: "Khula", sans-serif;
+  background: white;
+}

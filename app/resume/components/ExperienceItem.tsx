@@ -1,5 +1,6 @@
 import React from "react";
-import { ReactComponent as Calendar } from "../icons/calendar.svg";
+// import { ReactComponent as Calendar } from "../icons/calendar.svg";
+import Image from 'next/image';
 
 interface ExperienceItemProps {
   title: string;
@@ -8,8 +9,8 @@ interface ExperienceItemProps {
 }
 
 const ExperienceItem = ({ title, date, children }: ExperienceItemProps) => (
-  <div className="experience-item">
-    <span style={{ fontSize: 14, fontWeight: 600 }}>{title}</span>
+  <>
+    <span style={{ fontSize: 14, fontWeight: 600, lineHeight: '18px' }}>{title}</span>
     <span
       style={{
         height: 15,
@@ -19,11 +20,11 @@ const ExperienceItem = ({ title, date, children }: ExperienceItemProps) => (
         margin: "2px 0 7px 0",
       }}
     >
-      <Calendar width="17px" height="17px" style={{ marginRight: 10, marginTop: -1 }} />
+      <Image priority src="/icons/calendar.svg" width={17} height={17} alt="Date" className="mr-[10px] -mt-[1px]" />
       <span style={{ marginTop: 3, lineHeight: "12px" }}>{date}</span>
     </span>
     <span style={{ fontSize: 14, textAlign: "justify" }}>{children}</span>
-  </div>
+  </>
 );
 
 export default ExperienceItem;

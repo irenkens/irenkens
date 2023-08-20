@@ -6,9 +6,9 @@ interface BlockItemProps {
 }
 
 const BlockItem = ({ title, children }: BlockItemProps) => (
-  <div className="block-item">
+  <div className="flex flex-col">
     <div
-      className="block-title"
+      className="font-semibold"
       style={{
         fontSize: 16,
         borderBottom: "1px dashed #e0e0e0",
@@ -17,7 +17,7 @@ const BlockItem = ({ title, children }: BlockItemProps) => (
     >
       {title}
     </div>
-    <div className="block-content">{children}</div>
+    <div className="flex flex-col">{children}</div>
   </div>
 );
 

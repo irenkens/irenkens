@@ -11,11 +11,11 @@ const SubCompany = ({ company, description, style }: SubCompanyProps) => (
     <div style={{ marginRight: 5 }}>&#11049;</div>
     <div style={{ display: "flex", flexDirection: "column" }}>
       <span style={{ fontSize: 14 }}>
-        <span style={{ fontWeight: 400 }}>
+        <span className="font-semibold">
           {company}
           :&nbsp;
         </span>
-        <span>{description}</span>
+        <span dangerouslySetInnerHTML={{ __html: description }} />
       </span>
     </div>
   </div>

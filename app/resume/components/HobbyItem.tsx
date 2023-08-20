@@ -6,9 +6,9 @@ interface HobbyItemProps {
 }
 
 const HobbyItem = ({ children, name }: HobbyItemProps) => (
-  <div className="hobby">
+  <div className="flex items-center h-[30px] my-[5px] mx-0">
     {children}
-    <span style={{ marginLeft: 10 }}>{name}</span>
+    <span style={{ marginLeft: 10, marginTop: 5 }}>{name}</span>
   </div>
 );
 
